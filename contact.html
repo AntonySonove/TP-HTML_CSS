@@ -9,33 +9,45 @@
         <div class="centrer">
             <img src="https://picsum.photos/800/200
             " alt="montagnes"/>
-            <h1>Bienvenue sur mon site</h1>
+            <h1>Bienvenue sur mon site !</h1>
             <ul class="sans_puces  gray red color">
                 <li><a href="index.html">Acceuil</a></li>
-                <li><a href="https://google.fr/" target="-blank">Blog</a></li>
+                <li><a href="index.html#ancre">Blog</a></li>
                 <li><a href="Galerie.html">Galerie</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
             <div>
-                <form method="POST"></form>
+                <form method="POST">
                 <fieldset>
                     <legend>Contact</legend>
-                    <label for="nom">Nom:<span class="red">*</span></label>
-                    <input type="text" name= "nom" id="nom" placeholder="Ex: Robert"><br>
 
-                    <label for="mail">E-mail:<span class="red">*</span></label>
-                    <input type="email" name= "mail" id="mail" placeholder="Ex: monMail@dev.com"><br>
+                    <div>
+                        <label for="nom">Nom:<span class="redstar">*</span></label>
+                        <input type="text" name= "nom" id="nom" placeholder="Ex: Robert">
+                    </div>
 
-                    <label for="commentaire">Laissez un commentaire:</label><br>
-                    <textarea name="commentaire" id="commentaire" cols="50" rows="10" placeholder="Je dépose mon avis :)"></textarea><br>
+                    <div>
+                        <label for="mail">E-mail:<span class="redstar">*</span></label>
+                        <input type="email" name= "mail" id="mail" placeholder="Ex: monMail@dev.com">
+                    </div>
 
-                    <input type="checkbox" name="cpoie_email" id="copie_email">
-                    <label for="copie_email">Envoyer une copie par E-mail !</label><br>
+                    <div>
+                        <label for="commentaire">Laissez un commentaire:</label><br>
+                        <textarea name="commentaire" id="commentaire" cols="50" rows="10" placeholder="Je dépose mon avis :)"></textarea>
+                    </div>
 
-                    <input type="submit" name="envoyer" id="envoyer" value="Envoyer">
-                    <input type="reset" name="reset" id="reset" value="Reset">
+                    <div>
+                        <input type="checkbox" name="cpoie_email" id="copie_email" checked>
+                        <label for="copie_email">Envoyer une copie par E-mail !</label>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="envoyer" id="envoyer" value="Envoyer">
+                        <input type="reset" name="reset" id="reset" value="Reset">
+                    </div>
                 </fieldset>
+            </form>
             </div>
 
             <div class="align_right color">

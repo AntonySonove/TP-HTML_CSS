@@ -4,8 +4,7 @@
 .centrer {
     text-align: center;
     display: block;
-    margin: auto;
-    
+    margin: auto; 
 }
 .align_right{
     text-align: end;
@@ -27,6 +26,10 @@
 .color :hover{
     color: #2B2D42;
 }
+.redstar{
+    color: red;
+}
+
 
 
 body{
@@ -36,9 +39,11 @@ h1{
     color: #EF233C;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
 }
 h3{
     text-decoration: dashed underline 2px;
     font-weight: bold;
     color: #2b2d42;
+    font-size: 200%;
 }
